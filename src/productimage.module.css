@@ -1,0 +1,44 @@
+.Productimage{
+    width: 100%;
+    position: relative;
+  }
+  .Productimage img{
+    width:100%;
+  }
+  .time{
+    top:50%;
+    left: 50%;
+    font-size: 48px;
+    font-weight: 600;
+    transform: translate(-50%,-44%);
+    position: absolute;
+    color: white;
+  } 
+  .heartbeat{
+    top:50%;
+    left: 50%;
+    font-size: 48px;
+    font-weight: 600;
+    transform: translate(-50%,-44%);
+    position: absolute;
+    color: white;
+  }
+  .heartbeat > i{
+    color: red;
+    animation: beat 1s infinite ; 
+  }
+    @keyframes beat{
+    0%{
+      transform: scale(1,1);
+    }
+    50%{
+      transform: scale(1.2,1.2);
+    }
+    100%{
+      transform: scale(1,1);
+    } 
+  
+  }
+  .heartbeat > p{
+  margin-top: 16px;
+  }
